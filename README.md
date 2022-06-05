@@ -1,5 +1,5 @@
 # senior-project-22
-a polymorphic engine that i coded in about 45 hrs for my highschool senior project
+This is a polymorphic engine that I coded in about 45 hrs for my highschool senior project coded in go, c, and a little bit of python. 
 
 ### the main go file
 -reads from the two files ending in a .yeppers file extenstion </br>
