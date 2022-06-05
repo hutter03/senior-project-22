@@ -4,6 +4,6 @@ touch filedump.txt
 ~~ replace filetobedumped with actual file name and replace filedump.txt with file name created in prior step
 xxd -p filetobedumped > filedump.txt
 ~~ edit file to be opened in convert-dump-to-hex-string-for-c.py
-python3 convert-dump-to-hex-string-for-c.py
+python3 convert-dump-to-hex-string-for-c.py > payloadhex.yeppers
 
 ~~ when compiling a c file with gcc to dump use -Os flag
