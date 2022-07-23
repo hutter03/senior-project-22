@@ -5,7 +5,7 @@ This is a polymorphic engine that started off as my highschool senior project, a
 
 - GO and Python need to be installed
 - Compile main.go
-- Your compiled main.go file should be in the same folder as decrypt-exec and payloadhex
+- Your compiled main.go file should be in the same directory as decrypt-exec and payloadhex
 - The payloadhex file included in this repo is an example and should be replaced by the one you create using the python script
 
 
