@@ -14,7 +14,7 @@ This is a polymorphic engine that started off as my highschool senior project, a
   touch filedump.txt
   xxd -p yourBinary > filedump.txt
   touch payloadhex
-  python3 convert-dump-to-hex-string-for-c.py > payloadhex
+  python3 payloadhexmaker.py > payloadhex
 ```
 
 
