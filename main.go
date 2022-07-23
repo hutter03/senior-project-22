@@ -124,7 +124,7 @@ func enccbeforejunk() string {
     	key += string(character_set[rand.Intn(len(character_set))])
     }
     //hex dump of binary that will be executed in the c file that this is generating
-    payload_from_file, err := os.ReadFile("payloadhex.yeppers")
+    payload_from_file, err := os.ReadFile("payloadhex")
     if err != nil {
         log.Fatal(err)
     }
@@ -155,7 +155,7 @@ func enccbeforejunk() string {
     key_output += "};"
     //final output will be the code for the decryptor code executor
     final_output := ""
-    ctemplate, err := os.ReadFile("decrypt-exec.yeppers")
+    ctemplate, err := os.ReadFile("decrypt-exec")
     if err != nil {
         log.Fatal(err)
     }
