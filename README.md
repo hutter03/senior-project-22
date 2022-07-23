@@ -24,4 +24,4 @@ This is a polymorphic engine that started off as my highschool senior project, a
 - Make the decrypthex file modular
 - Make main.go automatically compile the source code that it generates 
 - Replace the Python file with code written in GO
-
+- Potentially change the encryption / encoding scheme
